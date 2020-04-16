@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+         <title>IMG 209 Project</title>
+         <meta charset="utf-8">
+         <link rel="stylesheet" type="text/css" href="css/main.css">
+         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+         <link rel="stylesheet" type="text/css" href="css/reset.css">
+         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+     
+         <script type="text/javascript" src="js/jquery.js"></script>
+         <script type="text/javascript" src="js/bootstrap.js"></script>
+   
+   <header>
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="Homies.html"><img src="images/Logo.png"></a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+ 
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav ml-auto">
+       <li class="nav-item active">
+         <a class="nav-link" href="View Rental.html">View Rentals</a>      
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="view profile-student.html">My Profile</a>
+       </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="#">Logout</a>      
+      </li>
+       <!-- <li class="nav-item">
+        <a class="nav-link" href="edit profile-student.html">Edit Profile</a>
+      </li> -->
+     </form>
+   </div>
+ </nav>
+ <div> <img src="images/student.jpg" alt=""> </div>
+   </header>
+  </head>
+  <body class="rentalbg-color">
+       <form class="container view-form">
+      <label for="location"> <b> City/Town: </b></label>
+      <select name="Location" class="custom-select-md">             
+        <option value="Courtenay">Courtenay</option>
+        <option value="Comox"> Comox</option>
+        <option value="Cumberland">Cumberland</option>
+      </select>
+
+      <label for="type"> <b> House Type: </b></label>
+      <select name="type" class="custom-select-md">             
+        <option value="Apartment">Apartment</option>
+        <option value="Basement"> Basement</option>
+        <option value="Room">Room Only</option>
+      </select>
+      <label for="Price"> <b>Price: </b></label>
+      <input type="text" id="Price" placeholder="$ 00.00"></input>
+     
+      
+      <label for="Bedroom"> <b> Bedroom: </b></label>
+      <select name="Bedroom" class="custom-select-md">             
+        <option value="">0</option>
+        <option value="">1</option>
+        <option value=""> 2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+      </select>
+       <label for="Bathroom"> <b>Bathroom: </b></label>
+      <select name="Bathroom" class="custom-select-md">             
+        <option value="">0</option>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+      </select>
+     <br>
+      <label for="Pets"><b>Pets: </b></label>
+      <select name="Pets" class="custom-select-md">  
+        <option value="No">No</option>           
+        <option value="Yes">Yes</option>                    
+      </select> 
+      <label for="Parking"> <b>Parking: </b></label>
+      <select name="Parking" class="custom-select-md">  
+        <option value="No">No</option>           
+        <option value="Yes">Yes</option>                    
+      </select>
+      <label for="Laundry"><b>Laundry: </b></label>
+      <select name="Laundry" class="custom-select-md">  
+        <option value="No">No</option>           
+        <option value="Yes">Yes</option>                    
+      </select>
+      <form class="form-inline my-2 my-lg-0"> 
+        <button class="btn" type="submit">Search</button>
+      </form>
+      </form>
+       <!-- cards -->
+  <div class="container">
+        <div class="row mt-auto">
+            <div class="col-lg-4 col-md-4 col-12">
+        <div class="rentalcard" >
+            <img class="card-img-top" src="images/house 1.jpeg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">2 Bedroom 1 Bathroom</h4>
+              <!-- <p class="card-text">Some example text.</p> -->
+              <a href="Rental1.html" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+            <div class="rentalcard" >
+                <img class="card-img-top" src="images/house 2.jpeg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Furnished 1 bedroom suite</h4>
+                  <!-- <p class="card-text">Some example text.</p> -->
+                  <a href="Rental2.html" class="btn">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="rentalcard" >
+                  <img class="card-img-top" src="images/house 3.jpeg" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title">New 2 bedroom house</h4>
+                    <!-- <p class="card-text">Some example text.</p> -->
+                    <a href="Rental3.html" class="btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+                        
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="rentalcard" >
+                    <img class="card-img-top" src="images/house 4.jpeg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Furnished 1 bedroom suite</h4>
+                      <!-- <p class="card-text">Some example text.</p> -->
+                      <a href="#" class="btn">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="rentalcard" >
+                      <img class="card-img-top" src="images/House 5.jfif" alt="Card image">
+                      <div class="card-body">
+                        <h4 class="card-title">New 2 bedroom house</h4>
+                        <!-- <p class="card-text">Some example text.</p> -->
+                        <a href="#" class="btn">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="rentalcard" >
+                        <img class="card-img-top" src="images/house 6.jfif" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">2 Bedroom 1 Bathroom</h4>
+                          <!-- <p class="card-text">Some example text.</p> -->
+                          <a href="#" class="btn">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+    </div>
+          <!-- card end -->
+
+     </body>
+     	<!--  start footer  -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<ul class="footer-nav">
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Terms of Use</a></li>
+					
+						</ul>
+					</div>
+					<div class="col-6 text-right">
+						<ul class="footer-social">
+							<li><a href="#">Youtube</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--  end footer  -->
+</html>

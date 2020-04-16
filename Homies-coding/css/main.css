@@ -1,0 +1,188 @@
+.heroimg{
+    
+    height: 100px;
+    
+    background-color: gray;
+    /* background-image: url(images/Header.jpg); */
+}
+.rentalbg-color{
+    background-color: whitesmoke;
+}
+
+header img{
+ 
+    padding-bottom: 5em;
+}
+
+.main{
+    background-color: whitesmoke;
+}
+
+  /*  Footer  */
+
+.footer {
+    background-color: #20b2aa;
+    padding: 45px 0;
+    margin-top: 50px;
+}
+
+footer ul {
+    margin:  0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer ul.footer-nav a {
+    color: #ffffff;
+}
+
+
+
+
+/* Navigation style */
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 14px;  
+}
+.navbar{
+    background-color: #20b2aa; 
+}
+.navbar-brand{
+    height: 100px;
+    width: 150px;
+    margin-left: 4em;
+}
+.navbar img{
+    width: 200px;
+    height: 200px;
+}
+.navbar a:hover{
+    /* background-color: teal; */
+    color:teal;   
+}
+.navbar-toggler-icon{
+    color: #ffffff;
+}
+nav a{
+    color: #ffffff;
+}
+nav ul li{
+    display: inline-block;
+    margin-right:45px ; 
+}
+nav ul li:last-child{
+    margin-right: 50px;
+}
+
+
+
+
+
+/* Card style */
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+     box-shadow: 10px 10px 5px lightgrey;
+    
+}
+.card-body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.card img{
+    height: 400px;
+}
+.rentalcard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rentalcard:hover{
+     box-shadow: 10px 10px 5px lightgrey;
+    
+}
+.rentalcard img{
+    height: 300px;
+}
+.rentalcard{
+    background-color:white;
+    margin: 50px 0;
+}
+/* .homecard img:hover {
+    opacity: .5;
+} */
+
+
+
+
+/* Make the image fully responsive */
+     /* .carousel-inner img { */
+        /* width: 100%; */
+        /* height: 100%; */
+    /* } */
+    .carousel{
+        width: 90%;
+        /* height: 70%; */
+        margin-top: 50px;
+    }
+    .Description{
+        margin-top: 50px;
+    }
+   
+   
+    .rentalcarousel{
+        width: 90%;
+        height: 70%;
+        margin-top: 50px;
+    }
+   
+
+
+   
+/* Forms styling */
+
+.login-form{
+   padding: 0 30em;
+   margin: 10px;
+   margin-top: 50px;
+    /* background-color: #20b2aa; */
+}
+.submit-form{
+    padding: 0 30em;
+    margin: 10px;
+    margin-top: 50px;
+}
+.view-form{
+    width: 50px;
+    /* padding-left: 50px; */
+    /* padding:20px; */
+    
+    /* margin: 10px; */
+}
+.custom-select-md{
+    width: 10%;
+    margin:10px 3px;
+    
+}
+.file-upload-wrapper{
+    padding-top: 70px;
+}
+.btn{
+    background-color: #20b2aa;
+    color: white;
+}
+
